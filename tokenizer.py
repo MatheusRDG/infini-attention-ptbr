@@ -5,7 +5,7 @@ class BPETokenizer:
         self.tokenizer = ByteLevelBPETokenizer()
     
     def train_tokenizer(self, file_path, vocab_size=30000, min_frequency=2):
-        self.tokenizer.train(files=file_path, vocab_size=vocab_size)
+        self.tokenizer.train(files=file_path, vocab_size=vocab_size, min_frequency=min_frequency)
 
     def save_tokenizer(self, path = "."):
         self.tokenizer.save_model(path)
