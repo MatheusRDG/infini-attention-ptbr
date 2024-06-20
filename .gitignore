@@ -137,3 +137,6 @@ dmypy.json
 # Editors
 *.sublime-project
 *.sublime-workspace
+
+dataset_copy.zarr
+dataset.zarr
