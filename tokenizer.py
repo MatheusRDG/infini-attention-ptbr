@@ -1,5 +1,6 @@
 from tokenizers import ByteLevelBPETokenizer
 
+
 class BPETokenizer:
     def __init__(self, file_path=None):
         self.tokenizer = ByteLevelBPETokenizer()

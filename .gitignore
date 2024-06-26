@@ -5,6 +5,13 @@ __pycache__/
 
 split_10
 debug
+data
+
+data/
+ckpt*/
+/__pycache__/
+/original/
+ckpt_1024_10percent_1epoch
 
 # C extensions
 *.so
