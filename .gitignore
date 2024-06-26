@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+split_10
+debug
+data
+
+data/
+ckpt*/
+/__pycache__/
+/original/
+ckpt_1024_10percent_1epoch
+
 # C extensions
 *.so
 
@@ -138,5 +148,4 @@ dmypy.json
 *.sublime-project
 *.sublime-workspace
 
-dataset_copy.zarr
-dataset.zarr
+*.zarr
